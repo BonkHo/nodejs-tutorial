@@ -1,5 +1,8 @@
 const { createReadStream } = require("fs");
 
+// Streams are objects that let you read data from a source in a continuous manner.
+// Streams can be used to read and write from a file, network socket, or other source.
+
 const stream = createReadStream("./content/bigfile.txt", {
 	highWaterMark: 90000,
 	encoding: "utf-8",
