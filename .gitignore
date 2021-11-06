@@ -1,2 +1,2 @@
-./node_modules
-./content/bigfile.txt
+node_modules/
+content/bigfile.txt/
